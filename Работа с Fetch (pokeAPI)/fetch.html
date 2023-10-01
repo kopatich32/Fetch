@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>PokeAPI</title>
     <style>
-        body{
+        body {
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -15,76 +15,90 @@
             width: 100%;
             min-height: 100vh;
         }
-        main{
+
+        main {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
             grid-row-gap: 30px;
         }
-        main> div{
+
+        main > div {
             width: 200px;
             height: 250px;
             border-radius: 20px;
             box-shadow: 0 0 29px -16px black;
             cursor: pointer;
         }
-        .card_img{
+
+        .card_img {
             width: 90%;
             height: 63%;
         }
-        img{
+
+        img {
             object-fit: contain;
             width: 100%;
             height: 100%;
         }
-        .wrapper{
+
+        .wrapper {
             position: relative;
             margin-right: 50px;
             transition: .5s;
             perspective: 1000px;
         }
-        .card{
+
+        .card {
             width: 100%;
             height: 100%;
         }
-        .front{
+
+        .front {
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
 
         }
-        .front .card_img{
+
+        .front .card_img {
             backface-visibility: hidden;
             transition: .5s;
 
         }
-        .back .card_img{
+
+        .back .card_img {
             transform: rotateY(180deg);
             backface-visibility: hidden;
             transition: .5s;
         }
-        .back{
+
+        .back {
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
         }
-        .front, .back{
+
+        .front, .back {
             position: absolute;
             width: 100%;
             top: 0;
             left: 0;
-            transition:  .5s;
+            transition: .5s;
         }
-        .card:hover .back .card_img{
+
+        .card:hover .back .card_img {
             transform: rotateY(360deg);
             transition: .5s;
         }
-        .card:hover .front .card_img{
+
+        .card:hover .front .card_img {
             transform: rotateY(180deg);
             transition: .5s;
         }
-        button{
+
+        button {
             margin-top: 50px;
             width: 150px;
             height: 40px;
@@ -92,7 +106,8 @@
     </style>
 </head>
 <body>
-<main> </main>
+
+<main></main>
 <button id="reload">Обновить карточки</button>
 <button id="more">Показать ещё</button>
 <script src="fetch.js"></script>
