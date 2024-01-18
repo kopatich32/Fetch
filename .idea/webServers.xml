@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="2425d002-431d-4844-92ac-d0608a7c46c5" name="Oracle" url="http://192.168.85.130">
+        <fileTransfer accessType="SFTP" host="192.168.85.130" port="22" sshConfigId="165996fe-5ad2-42ba-8456-5d17153ead95" sshConfig="bitrix@192.168.1 .210:22">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

@@ -1,8 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" remoteFilesAllowedToDisappearOnAutoupload="false">
+  <component name="PublishConfigData" preserveTimestamps="false" remoteFilesAllowedToDisappearOnAutoupload="false">
     <serverData>
+      <paths name="BitrixExam">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$/../../../" web="192.168.85.129" />
+          </mappings>
+        </serverdata>
+      </paths>
       <paths name="Bitrix_test_site">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="Oracle">
         <serverdata>
           <mappings>
             <mapping local="$PROJECT_DIR$" web="/" />
